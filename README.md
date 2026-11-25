@@ -1,4 +1,4 @@
-# ScholarLocal — Full-Stack PHP & Database Edition
+# ScholarLocal
 
 **ScholarLocal: A Web-Based Research Repository with TF-IDF and Cosine Similarity for PUP Institute of Technology Students**
 
@@ -59,7 +59,4 @@ scholarlocal/
 - **Faculty** (`/login.php`): `prof.payra@pup.edu.ph` / `Faculty@2026!`
 - **Student** (`/login.php`): `juan.delacruz@iskolarngbayan.pup.edu.ph` / `Student@2026!`
 
-## Cloudflare Hosting Note
-Cloudflare Pages only serves static HTML/CSS/JS and serverless Workers—it does **not** execute PHP or host MySQL natively. To use Cloudflare with this PHP + MySQL stack:
-1. Host the PHP files and MySQL database on a PHP-capable host (e.g., Hostinger, InfinityFree, cPanel, or a VPS).
-2. Point your domain's DNS through **Cloudflare** (proxied orange cloud) to get Cloudflare's SSL, CDN caching, DDoS protection, and WAF in front of your PHP server.
+
