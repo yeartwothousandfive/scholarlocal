@@ -1,0 +1,12 @@
+# Local database
+database/*.sqlite
+database/*.sqlite-shm
+database/*.sqlite-wal
+
+# Private settings
+.env
+.env.*
+
+# Editor files
+.vscode/
+.idea/
